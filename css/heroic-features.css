@@ -46,7 +46,6 @@ body {
     align-self: center;
     z-index: 10;
     width: 100%;
-    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -60,6 +59,7 @@ body {
     opacity: 0.7;
     font-size: 36px;
     margin-top: 14px;
+    max-width: 70%;
 }
 
 .card {
@@ -102,6 +102,13 @@ body {
 
 }
 
+.rxtitle {
+    color: #ffffff;
+}
+.checkerTitle {
+    color: #c0504d;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #c0504d;
@@ -127,7 +134,7 @@ footer {
     top: 0;
     width: 100vw;
     border-bottom: 1px solid #CCCCCC;
-    z-index: 10;
+    z-index: 20;
 }
 
 .navbarContainer {
