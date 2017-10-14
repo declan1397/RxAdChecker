@@ -152,12 +152,32 @@ footer {
 *****************************/
 
 .card-img-top {
-    height: 116px;
-    padding: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.aspect-ratio-box {
+    height: 0;
+    overflow: hidden;
+    padding-top: 32%;
+    background: white;
+    position: relative;
+    margin: 10px 22% 0 22%;
 }
 
 .card-title {
     margin-bottom: 4px;
+}
+
+.card-body {
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+.btn-primary {
+    padding: 8px 22px;
 }
 
 .numberCircle {
@@ -179,15 +199,16 @@ footer {
     margin-bottom: 15px !important;
     color: #c0504d !important;
     font-weight: 500;
+    border-top: solid 1px #cccccc;
+    padding-top: 18px;
 }
 
 .criteriaRollover {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .criteriaRollover:hover, .GradeScore:hover {
     cursor: pointer;
-    color: #c0504d;
 }
 
 .criteriaRolloverPalette {
@@ -210,7 +231,7 @@ footer {
 }
 
 .cardPropertySection {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 .arrow-up {
@@ -223,6 +244,22 @@ footer {
     border-bottom: 15px solid #c0504d;
     display: none;
     position: absolute;
+  }
+
+  .rolloverBlack {
+      color: #5b5b5b;
+      border-color: #5b5b5b;
+  }
+
+  .grayHorizontalLine {
+    border-bottom: 1px solid #cccccc;
+    padding: 0;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .retailPrice {
+      font-size: 22px;
   }
   
 
