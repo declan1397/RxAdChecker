@@ -44,8 +44,10 @@ body {
 
 .titleFlexCenter {
     align-self: center;
-    margin-left: 80px;
     z-index: 10;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .pageTitle {
