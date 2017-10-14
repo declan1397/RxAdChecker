@@ -120,6 +120,11 @@ body {
     border-color: #c0504d;
 }
 
+.toggleIcon {
+    font-size: 27px;
+    color: #5b5b5b;
+}
+
 footer {
     background-color: #212529;
 }
@@ -306,4 +311,23 @@ footer {
 .searchBar {
     padding-left: 0;
     margin-bottom: 30px;
+}
+
+
+/****************************
+    Mobile Styles
+*****************************/
+
+@media only screen and (max-device-width: 480px) {
+    .titleFlexCenter {
+    }
+
+    .pageTitle {
+        font-size: 44px;
+    }
+
+    .pageSubtitle {
+        max-width: unset;
+        font-size: 24px;
+    }
 }
