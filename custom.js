@@ -32,6 +32,10 @@ $(document).ready(function() {
         $('.consumerSelector').css('padding-top', '12px');
     });
 
+    $('.closeIcon').click(function () {
+        $(this).parent('.card').parent('.col-lg-3').css('display', 'none');
+    });
+
 
 
 
