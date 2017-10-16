@@ -427,6 +427,7 @@ footer {
     text-align: left;
     max-width: 475px;
     align-self: center;
+    font-size: 16px;
 }
 
 .consumerBannerTextWrapper {
@@ -469,4 +470,80 @@ footer {
     max-width: 450px;
     align-self: center;
     height: 200px;
+    margin-left: auto;
+}
+
+
+/****************************
+    Property Section
+*****************************/
+
+.propertySectionWrapper {
+    background: #333333;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.propertySectionCard {
+    background: #ffffff;
+    height: 100%;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.propertySectionContainer {
+    height: 100%;
+    padding: 50px 0;
+    /* display: flex; */
+}
+/* 
+.pcard1 {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.pcard2 {
+    width: 500px;
+} */
+
+.jardianceSumTableTitle {
+    display: block;
+    width: 90%;
+    font-size: 32px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.propertyCardTitleSection {
+    color: #212529;
+    width: 35%;
+    padding: 20px 28px;
+    display: inline-block;
+}
+
+.propertyCardTitleSectionName {
+    font-size: 30px;
+    font-weight: 500;
+}
+.propertyCardTitleSectionGeneric {
+    font-size: 20px;
+}
+.propertyCardTitleSectionClass {
+    font-size: 16px;
+}
+
+.propertyCardGridSection {
+    width: 65%;
+    display: inline-block;
+}
+
+.gridCard {
+    background: red;
+}
+
+.dcol-md-4 {
+    max-width: calc(100% / 3);
 }
