@@ -90,8 +90,14 @@ body {
     color: lightgray;
 }
 
+.textGray {
+    color: #5b5b5b !important;
+    border-color: #5b5b5b !important;
+}
+
 .textDarkGray {
-    color: #212529;
+    color: #212529 !important;
+    border-color: #212529 !important;
 }
 
 .display-3 {
@@ -480,16 +486,15 @@ footer {
 
 .propertySectionWrapper {
     background: #333333;
-    height: 400px;
+    height: 500px;
     width: 100%;
-    display: flex;
+    padding: 40px 10%;
 }
 
 .propertySectionCard {
     background: #ffffff;
     height: 100%;
     display: block;
-    width: 90%;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -499,30 +504,34 @@ footer {
     padding: 50px 0;
     /* display: flex; */
 }
-/* 
-.pcard1 {
-    width: 300px;
-    margin-right: 10px;
-}
 
-.pcard2 {
-    width: 500px;
-} */
+.noPaddingCard {
+    padding: 0;
+    position: relative;
+}
 
 .jardianceSumTableTitle {
     display: block;
-    width: 90%;
     font-size: 32px;
-    margin: 0 auto;
     color: #ffffff;
 }
 
 .propertyCardTitleSection {
     color: #212529;
-    width: 35%;
     padding: 20px 28px;
     display: inline-block;
 }
+
+.border-right {
+    border-right: solid 1px #c9c9c9;
+    height: calc(100% - 40px);
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
 
 .propertyCardTitleSectionName {
     font-size: 30px;
@@ -533,10 +542,10 @@ footer {
 }
 .propertyCardTitleSectionClass {
     font-size: 16px;
+    white-space: nowrap;
 }
 
 .propertyCardGridSection {
-    width: 65%;
     display: inline-block;
 }
 
@@ -546,4 +555,23 @@ footer {
 
 .dcol-md-4 {
     max-width: calc(100% / 3);
+}
+
+.propertyGrid {
+    padding: 30px 40px 5px 40px;
+    text-align: center;
+}
+
+.propertyGridRow {
+    margin-bottom: 20px;
+}
+
+.goodrxwidgetimg {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.alignSelfCenter {
+    align-self: center;
 }
