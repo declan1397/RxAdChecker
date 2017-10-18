@@ -35,7 +35,18 @@ $(document).ready(function() {
     $('.closeIcon').click(function () {
         $(this).parent('.card').parent('.col-lg-3').css('display', 'none');
     });
+    
+    $('.alignSelfCenter').hover(function () {
+        $(this).children('.criteriaRolloverPalette').css('display', 'block');
+    },  function () {
+        $(this).children('.criteriaRolloverPalette').css('display', 'none');
+    });
 
+    $('.alignSelfCenter').hover(function () {
+        $(this).children('.arrow-up').css('display', 'block');
+    },  function () {
+        $(this).children('.arrow-up').css('display', 'none');
+    });
 
 
 

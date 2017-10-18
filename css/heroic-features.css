@@ -3,6 +3,7 @@
  * Portfolio: declangoncalves.com
  */
 
+ @import "https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic";
 
 /****************************
     General Styles
@@ -10,6 +11,7 @@
 
 body {
     margin-top: 57px;
+    overflow-x: hidden;
 }
 
 @media (min-width: 992px) {
@@ -514,6 +516,7 @@ footer {
     display: block;
     font-size: 32px;
     color: #ffffff;
+    font-weight: 600;
 }
 
 .propertyCardTitleSection {
@@ -574,4 +577,24 @@ footer {
 
 .alignSelfCenter {
     align-self: center;
+}
+
+
+.evidenceTableSection {
+    padding: 40px 10% 60px 10%;
+}
+
+.evidenceTableTitle {
+    font-size: 36px;
+    font-weight: 500; 
+}
+
+.evidenceTable {
+    border: solid 2px #e9ecef;
+    padding: 5px 10px;
+    margin-top: 22px;
+}
+
+.evidenceTableHeader {
+    padding: 5px 5px;
 }
